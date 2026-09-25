@@ -1,0 +1,86 @@
+name: "super_duper_language"
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Styling
+  shadcn_ui: ^0.0.0
+  lucide_icons:
+  responsive_framework: ^1.5.1
+  animations: ^2.2.0
+  flutter_easyloading: ^4.0.2
+  cached_network_image: ^3.4.1
+
+  # State Management & DI
+  flutter_bloc: ^9.1.1
+  get_it: ^9.3.0
+  injectable: ^3.0.0
+
+  # Firebase
+  firebase_core: ^4.15.0
+  firebase_crashlytics: ^5.4.0
+  firebase_app_check: ^0.4.8
+  firebase_remote_config: ^6.7.0
+
+  # Utilities
+  dartz: ^0.10.1
+  equatable: ^3.0.0
+  freezed_annotation: ^3.1.0
+  flutter_secure_storage: ^10.3.4
+  force_update_helper: ^0.3.0
+  intl:
+  dio: ^5.11.1
+  pretty_dio_logger: ^1.4.0
+  flutter_native_splash: ^2.4.7
+  settings_ui: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code Generation
+  build_runner: ^2.15.1
+  freezed: ^3.2.5
+  injectable_generator: ^3.0.2
+
+  # Assets Generation
+  flutter_launcher_icons: ^0.14.4
+
+# Launcher Icons Configuration
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/launcher_icon.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/icon/launcher_icon.png"
+  windows:
+    generate: true
+    image_path: "assets/icon/launcher_icon.png"
+  macos:
+    generate: true
+    image_path: "assets/icon/launcher_icon.png"
+
+# Native Splash Configuration
+flutter_native_splash:
+  color: "#ffffff"
+  color_dark: "#000000"
+  image: assets/images/splash_icon.png
+  android_12:
+    image: assets/images/splash_icon.png
+    color: "#ffffff"
+    color_dark: "#ffffff"
+  fullscreen: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icon/

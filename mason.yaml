@@ -1,0 +1,9 @@
+bricks:
+  flutter_starter:
+    path: /Users/Shared/.development/apps/bricks/flutter_starter
+  flutter_firebase:
+    path: /Users/Shared/.development/apps/bricks/flutter_firebase
+  dart_shelf_saas:
+    path: /Users/Shared/.development/apps/bricks/dart_shelf_saas
+  flutter_flame_game:
+    path: /Users/Shared/.development/apps/bricks/flutter_flame_game
